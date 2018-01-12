@@ -1,0 +1,28 @@
+HTML
+<!doctype html> 
+//algumas tags nao precisam ser fechadas **
+componentes principais
+HEAD <head> informações nao explícitas ao usuário
+<title>
+<meta />** 
+
+BODY<body> dados visíveis ao usuário
+<h1/2/3...>		cabeçalho
+<br>** 			quebra de linha 
+<p>				paragrafo
+<hr />**		cria linha na pagina
+<b>/<strong>	negrito
+<i>/<em>		italico
+<u>				underline
+<strike>		riscado
+<ul>			lista nao ordenada
+<ol>			lista ordenada
+	<li>		adiciona item
+<img />** 		adciona imagem
+<img source=""/ width="" height="">
+
+<a href="">		cria link para HREF
+<table border="1"> cria tabela
+ 	<tr>			cria linha na tabela
+		<th>		table head
+		<td>		table data
