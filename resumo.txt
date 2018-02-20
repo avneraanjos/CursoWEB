@@ -7,14 +7,14 @@ HEAD <head> informações nao explícitas ao usuário
 <meta />** 
 
 BODY<body> dados visíveis ao usuário
-<h1/2/3...>		cabeçalho
-<br>** 			quebra de linha 
-<p>				paragrafo
-<hr />**		cria linha na pagina
-<b>/<strong>	negrito
-<i>/<em>		italico
-<u>				underline
-<strike>		riscado
+<h1/2/3...>																		cabeçalho
+<br>** 																			quebra de linha 
+<p>																				paragrafo
+<hr />**																		cria linha na pagina
+<b>/<strong>																	negrito
+<i>/<em>																		italico
+<u>																				underline
+<strike>																		riscado
 <ul>			lista nao ordenada
 <ol>			lista ordenada
 	<li>		adiciona item
@@ -26,3 +26,11 @@ BODY<body> dados visíveis ao usuário
  	<tr>			cria linha na tabela
 		<th>		table head
 		<td>		table data
+<form>
+	<input type="text" name="user"><br>
+	<input type="password" name="s"><br>
+	<input type="radio" name="sexo"> Masc
+	<input type="checkbox">Banana<br>
+	<select>	
+		<option>MG</option>
+				
