@@ -61,7 +61,36 @@
 
     <div class="capa">
       <div class="texto-capa">
-        
+        <div class="col-md-8">
+          <form action="http://formmail.kinghost.net/formmail.cgi" method="POST"> 
+            <input type="hidden" name="recipient" value="xadrezpe@gmail.com"> <!-- Pode ser qualquer endereço de email -->
+            <input type="hidden" name="redirect" value="http://www.xadrezpe.com.br"> <!-- Após o envio, o usuário será redirecionado para a página configurada aqui -->
+            <input type="hidden" name="subject" value="teste">  <!-- Assunto da mensagem -->
+            <input type="hidden" name="email" value="email@doseudominio">   <!-- Deve ser uma conta de email ativa em seu domínio -->
+            
+            <p> 
+              <div>
+                <label for="nome">Nome:</label>
+                <input type="text" id="nome" />
+            </div>
+            <div>
+                <label for="email">E-mail:</label>
+                <input type="email" id="email" />
+            </div>
+            <div>
+                <label for="msg">Mensagem:</label>
+                <textarea id="msg"></textarea>
+            </div> 
+            
+            <p> 
+            <input type="submit" name="BTEnvia" value="Enviar"> 
+            <input type="reset" name="BTApaga" value="Apagar"> </p> 
+
+        </div>
+        <div class="col-md-4">
+          <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.517595728407!2d-34.95306218485583!3d-8.048565582621928!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab1bdf8972b75d%3A0x51440c30bf6d270!2spirapama!5e0!3m2!1spt-BR!2sbr!4v1519159207821" width="600" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>
+
+        </div>
       
       </div>
     </div>
