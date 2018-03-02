@@ -11,12 +11,12 @@ html, body, .capa {
 }
 
 body {
-	background: url('imagens/ruido.png'),
+	/*background: url('imagens/ruido.png'),
 				url('imagens/ruido.png'),
 				url('imagens/ruido.png'),
 				url('imagens/ruido.png'),
 				url('imagens/ruido.png'),
-				linear-gradient(90deg,#32CD32,#FFD700,#DC143C);
+				linear-gradient(90deg,#32CD32,#FFD700,#DC143C);*/
 	background-attachment: fixed;
 	font-family: Helvetica,Arial,sans-serif;
 	overflow-x: hidden;
@@ -62,6 +62,23 @@ nav.navbar-transparente {
 .capa {
 	display: table;
 	width: 100%;
+}
+.area{
+	height: 100%;
+
+}
+.notices{ 
+	border-style: solid;
+	border-color: blue;
+	border-width: 1px;
+	height: 100%;
+}
+
+.notice{
+	border-style: solid;
+	border-color: red;
+	border-width: 1px;
+	margin: 20px;
 }
 
 .texto-capa {
@@ -109,12 +126,13 @@ nav.navbar-transparente {
 }
 
 /* -- recursos -- */
-#recursos {
-	padding-top: 20px;
-	padding-bottom: 20px;
-	color: white;
+#calendar {
+	margin:100px 0px;
+	
 }
-
+#contactus{
+	margin:57px 0px;
+}
 .rotacionar{
 	transform: rotate(30deg);
 	-ms-transform: rotate(30deg); /* IE 9 */
